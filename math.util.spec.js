@@ -1,4 +1,4 @@
-const { add } = require("./math.util.js");
+const { add, square } = require("./math.util.js");
 const fc = require("fast-check");
 
 test("add 함수 테스팅", () => {
